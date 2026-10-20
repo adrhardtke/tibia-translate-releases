@@ -15,6 +15,10 @@
   <a href="https://livepix.gg/adhardtke">♡ Apoiar o projeto</a>
 </p>
 
+<p align="center">
+  <img src="images/resultado-traducao.png" alt="Tibia Translate ao lado do jogo, mostrando as falas do NPC Frodo traduzidas para o português" />
+</p>
+
 ---
 
 ## Downloads
@@ -42,11 +46,19 @@ ligar a tradução automática.
 
 1. Instale o [OBS Studio](https://obsproject.com/) (grátis).
 2. No OBS, adicione uma fonte **Captura de jogo** ou **Captura de janela** apontando para o Tibia.
-3. No OBS, vá em **Ferramentas → Configurações do servidor WebSocket**, ative o servidor e
-   copie a senha.
-4. Abra o Tibia Translate, clique na engrenagem ⚙, informe a senha e clique em **Conectar**.
-5. Escolha a **fonte do jogo** e clique em **Definir área**: arraste sobre a janela de chat do
-   NPC e pressione **Enter**.
+3. No OBS, vá em **Ferramentas → Configurações do servidor WebSocket** e marque
+   **Ativar servidor WebSocket**. A porta padrão é `4455`. Se **Habilitar autenticação**
+   estiver marcado, copie a senha.
+
+   <img src="images/configurar-obs.png" alt="Menu Ferramentas do OBS e janela Configurações do servidor WebSocket com o servidor ativado na porta 4455" />
+
+4. Abra o Tibia Translate, clique na engrenagem ⚙, informe a senha (se houver) e clique em
+   **Conectar**.
+5. Escolha a **fonte do jogo** e clique em **Definir área**: um print do jogo aparece em tela
+   cheia. Arraste sobre a janela de conversa com o NPC e pressione **Enter**.
+
+   <img src="images/marcando-area.png" alt="Seleção em destaque dourado sobre a janela de conversa com o NPC Quentin" />
+
 6. Fale com um NPC e clique em **Traduzir**. Pronto!
 
 > Deixe o Tibia em modo **janela** ou **tela cheia sem bordas**. Em tela cheia exclusiva
